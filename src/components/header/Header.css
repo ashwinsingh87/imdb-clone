@@ -56,11 +56,12 @@ a > span:hover {
 @media only screen and (max-width: 600px){
   .header__icon {
     margin:0px 5px;
-    width: 40px;
+    width: 60px;
   }
   a > span{
-    margin: 0 5px;
+    margin: 0 4px;
     font-size: .8rem;
+    font-weight: 700;
     overflow: none;
 
   }

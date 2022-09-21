@@ -50,7 +50,7 @@ const Home = () => {
                   </span>
                 </div>
                 <div className="posterImage__description">
-                  {movie ? movie.overview : ""}
+                  {(movie ? movie.overview : "").slice(0,220)+"..."}
                 </div>
               </div>
             </Link>
